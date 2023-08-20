@@ -19,4 +19,9 @@ public class StudentService {
     public List<Student> getStudent(){
         return studentRepository.findAll();
     }
+
+    public void addNewStudent(Student student) {
+        System.out.println("This is the data passed"+student);
+
+    }
 }
